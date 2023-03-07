@@ -19,11 +19,9 @@ public class DmvSimulator {
                 if (randInt == 0) { // 1% chance
                     System.out.println("You may now proceed to the desk.");
                 } else { // 99% chance
-                    System.out.println("You must be blind, as the sign says without the papers, you will not receive assistance, so stop wasting everyone's time and get out of my sight! And don't come back until you have those papers!");
+                    System.out.println("You must be blind, as the sign says without the papers, you will not receive assistance, so stop wasting everyone's time and get out of my sight! And don't come back until you have those papers! MWAHAHAHA!!!!");
                 }
                 break; // stops the loop once the user's number is called
             }
             currentNumber = (currentNumber % 200) + 1; // wrap around to 1 if currentNumber reaches 200
         }
-    }
-}
