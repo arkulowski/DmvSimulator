@@ -21,6 +21,6 @@ public class DmvSimulator {
             currentNumber = (currentNumber % 100) + 1; // wrap around to 1 if currentNumber reaches 100
         }
 
-        System.out.println("Sorry, you don't have the required paperwork.");
+        System.out.println("You must be blind, as the sign says without the papers, you will not receive assistance, so stop wasting everyone's time and get out of my sight! And don't come back until you have those papers!");
     }
 }
