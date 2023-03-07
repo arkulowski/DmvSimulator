@@ -25,3 +25,5 @@ public class DmvSimulator {
             }
             currentNumber = (currentNumber % 200) + 1; // wrap around to 1 if currentNumber reaches 200
         }
+    }
+}
